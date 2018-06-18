@@ -17,7 +17,7 @@
 /***********************************/
 
 /* 空きコード表 */
-int akicode_tbl[ MEMBER_MAX + 1 ]
+int akicode_tbl[ MEMBER_MAX + 1 ];
 
 /* コード・データ対照表 */
 int codedata_tbl[ MEMBER_MAX ];
