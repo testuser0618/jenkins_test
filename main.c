@@ -38,7 +38,7 @@ struct KEISOKU_TBL sort_keisoku_tbl[ MEMBER_MAX ];
 /***********************************/
 int main( void )
 {
-    int    loop = TRUE                 /* ループフラグ                  */
+    int    loop = TRUE;                 /* ループフラグ                  */
     char   work[ 128 ];                 /* 入力ワーク                    */
     FILE   *fp;                         /* ファイルポインタ              */
     char   *fname1 = AKICODE_TBL_NAME;  /* 空きコード表ファイル          */
