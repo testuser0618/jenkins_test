@@ -452,6 +452,6 @@ struct KEISOKU_TBL init_kojin_keisoku_tbl( void )
 {
     static struct KEISOKU_TBL tbl = {
         0, 0, "        ", 0, "        ", 0, "        ", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-    };
+    };;
     return tbl
 }
