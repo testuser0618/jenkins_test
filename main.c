@@ -79,7 +79,7 @@ int main( void )
         }
         kojin_keisoku_tbl = init_kojin_keisoku_tbl();
 
-        printf( "\n" )
+        printf( "\n" );
         printf( "\n *******************************************" );
         printf( "\n  アスレチッククラブ メンバー管理プログラム" );
         printf( "\n *******************************************" );
