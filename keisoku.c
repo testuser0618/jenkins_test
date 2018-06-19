@@ -32,7 +32,7 @@ int keisoku_input( void )
 {
     int     ret;                /* リターンコード    */
     int     i;                  /* インデックス      */
-    int     kaiin_code;         /* 計測会員コード    */
+    int     kaiin_code         /* 計測会員コード    */
     int     undou_sisuu;        /* 算出運動指数      */
     char    msg[ 64 ];          /* メッセージエリア  */
     char    keisoku_date[ 9 ];  /* 計測日付          */
