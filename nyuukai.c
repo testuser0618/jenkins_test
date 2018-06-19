@@ -23,7 +23,7 @@ extern struct KEISOKU_TBL kojin_keisoku_tbl;     /* 個人別計測データ表 
 /***********************************/
 int nyuukai_touroku( void )
 {
-    int    ret;             /* リターンコード      */
+    int    ret             /* リターンコード      */
     int    kaiin_code;      /* 登録会員コード      */
     long   fptr;            /* ファイルポインタ    */
     char   msg[ 64 ];       /* メッセージエリア    */
