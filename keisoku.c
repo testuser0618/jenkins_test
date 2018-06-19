@@ -30,7 +30,7 @@ static struct  KEISOKU_INPUT   keisoku_indata[ 5 ];
 /************************************/
 int keisoku_input( void )
 {
-    int     ret;                /* リターンコード    */
+    int     ret                /* リターンコード    */
     int     i;                  /* インデックス      */
     int     kaiin_code;         /* 計測会員コード    */
     int     undou_sisuu;        /* 算出運動指数      */
